@@ -30,6 +30,10 @@ body {
 ul {
   list-style: none;
 }
+/* Page header */
+.page-header {
+  background-color: blue;
+}
 /* site nav */
 .site-nav .link {
   color: var(--title-text-color);
@@ -64,6 +68,7 @@ ul {
 }
 /* Hero */
 .hero-title {
+  margin-bottom: 30px;
   color: var(--primary-bg-color);
 
   font-weight: 900;
@@ -71,6 +76,8 @@ ul {
   line-height: 1.4;
   text-align: center;
   text-transform: uppercase;
+
+  background-color: tomato;
 }
 .basic {
   background-color: #2f303a;
