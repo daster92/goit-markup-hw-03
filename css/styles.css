@@ -112,6 +112,8 @@ ul {
 }
 /* Hero */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 }
 .hero-title {
@@ -293,4 +295,9 @@ ul {
   margin-bottom: 0;
   font-size: 16px;
   line-height: 1.88;
+}
+/* Подвал */
+.basement {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
