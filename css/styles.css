@@ -16,6 +16,12 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+/* Utilities */
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -42,15 +48,28 @@ body {
 .logo-text {
   color: var(--title-text-color);
 }
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-/* Page header */
 
+/* Page header */
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+/* Main nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
 /* site nav */
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -66,7 +85,17 @@ ul {
   color: var(--accent-color);
 }
 /* auth nav */
+.auth-nav {
+  margin-left: auto;
+  display: flex;
+}
+.auth-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
 .auth-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -112,7 +141,26 @@ ul {
   line-height: 1.2;
   text-align: center;
 }
+.doing {
+  display: flex;
+  margin: -15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.doing .item {
+  margin: 15px;
+}
 /* Features */
+.feature-list {
+  display: flex;
+  margin: -15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.feature-list .item {
+  width: 270px;
+  margin: 15px;
+}
 .feature-list .title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -130,6 +178,16 @@ ul {
   line-height: 1.71;
 }
 /* Team */
+.team-list {
+  display: flex;
+  margin: -15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.team-list .item {
+  margin: 15px;
+}
 .team-list .title {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -164,9 +222,14 @@ ul {
   font-size: 16px;
   line-height: 1.8;
 }
+.sections-button .item:not(:last-child) {
+  margin-right: 8px;
+}
 .sections-button {
+  display: flex;
   padding-top: 0;
   padding-bottom: 50px;
+  justify-content: center;
 }
 .button-link {
   display: inline-block;
