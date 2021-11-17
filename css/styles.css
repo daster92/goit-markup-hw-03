@@ -137,6 +137,10 @@ img {
   background-color: var(--secondary-bg-color);
 }
 /* Section */
+.section-block {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -194,7 +198,7 @@ img {
   margin-right: 30px;
 }
 .team-list .title {
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 10px;
   color: var(--title-text-color);
 
@@ -205,9 +209,11 @@ img {
 .team-list .text {
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.2;
+}
+.description {
+  padding: 30px 0;
 }
 .foto {
   background: #ffffff;
@@ -215,6 +221,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 /* Button */
 .button {
   border-radius: 4px;
@@ -239,8 +246,8 @@ img {
 }
 .sections-button {
   display: flex;
-  padding-top: 0;
-  padding-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 50px;
   justify-content: center;
 }
 .button-link {
@@ -309,8 +316,8 @@ img {
   margin-bottom: 30px;
 }
 .work-list .title {
-  margin-top: 20px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 4px;
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -318,11 +325,13 @@ img {
   line-height: 2;
 }
 .work-list .text {
-  margin-top: 4px;
+  margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 20px;
   font-size: 16px;
   line-height: 1.88;
+}
+.content {
+  padding: 20px 24px;
 }
 .card {
   background: #ffffff;
